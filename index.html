@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Emily Cake Studio – torte i slatki sto, Beograd | +381 64 3141 962</title>
+<meta name="description" content="Emily Cake Studio, Borisavljevićeva 4, Beograd: ručno rađene svadbene, dečje i torte po želji, koktel box i slatki sto. Poručite na +381 64 3141 962.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:title" content="Emily Cake Studio – slatki trenuci koji ostaju u srcu">
+<meta property="og:description" content="Torte za svadbe, rođendane, slave i poslovne događaje. Borisavljevićeva 4, Beograd. Tel: +381 64 3141 962.">
+<meta property="og:image" content="slike/hero.jpg">
+<meta name="theme-color" content="#fbf6e9">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300&display=swap">
+<style>
+:root{--cream:#fbf6e9;--yellow:#f6e7a8;--white:#fff;--navy:#1f2a3a;--gold:#8B7345;--logo:#e2cc6e;--line:rgba(31,42,58,.12);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--cream);color:var(--navy);font:400 16px/1.7 "Montserrat",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:"Montserrat",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:300;letter-spacing:.01em;line-height:1.2;margin:0}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:14px}
+section{padding:96px 24px}
+.wrap{max-width:1120px;margin:0 auto}
+.center{text-align:center}
+h2{font-size:clamp(26px,4.2vw,42px);margin-bottom:18px;text-wrap:balance}
+.btn{display:inline-block;padding:14px 30px;border-radius:999px;font:600 13px/1.2 "Montserrat",sans-serif;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border:1px solid var(--navy);cursor:pointer;transition:.25s}
+.btn.dark{background:var(--navy);color:#fff}.btn.dark:hover{background:var(--gold);border-color:var(--gold)}
+.btn.light{background:rgba(255,255,255,.9);color:var(--navy);border-color:transparent}.btn.light:hover{background:var(--yellow)}
+.btn.ghost{color:var(--navy)}.btn.ghost:hover{background:var(--navy);color:#fff}
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);background:rgba(31,42,58,.88);backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{max-width:1120px;margin:0 auto;height:64px;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--logo);font:300 13px/1 "Montserrat",sans-serif;letter-spacing:.2em;text-transform:uppercase}.logo b{font-weight:800}
+.logo img{height:44px;width:auto}
+.logo .fallback{width:38px;height:38px;border-radius:50%;background:var(--navy);color:var(--logo);display:grid;place-items:center;font-size:18px}
+nav ul{display:flex;gap:34px;list-style:none;margin:0;padding:0}
+nav a{text-decoration:none;color:#fff;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase}
+nav a:hover{color:var(--logo)}
+.burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;padding:0}
+.burger span{display:block;width:22px;height:2px;background:#fff;margin:5px auto;transition:.25s}
+@media(max-width:780px){.burger{display:block}
+nav ul{position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--navy);border-bottom:1px solid rgba(255,255,255,.08);max-height:0;overflow:hidden;transition:max-height .3s}
+nav ul.open{max-height:320px}nav li a{display:block;padding:16px 24px;font-size:17px}}
+/* hero */
+.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:120px 24px 40px;overflow:hidden;background:linear-gradient(135deg,#f6e7a8,#1f2a3a)}
+.hero>picture.bg{position:absolute;inset:0}.hero picture.bg img{width:100%;height:100%;object-fit:cover;object-position:50% 70%}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,26,38,.45),rgba(20,26,38,.72));z-index:1}
+.hero>*:not(.bg){position:relative;z-index:2}
+.hero h1{font-size:clamp(30px,6.4vw,80px);font-weight:300;letter-spacing:.1em;text-transform:uppercase}.hero h1 b{font-weight:800}@media(max-width:560px){.hero h1 b{display:block}}
+.slogan{font-family:"Great Vibes","Snell Roundhand","Apple Chancery",cursive;font-weight:400;font-size:clamp(34px,5.6vw,58px);margin:14px 0 30px;color:var(--logo);line-height:1.15}
+.slogan span{display:block;white-space:nowrap}
+.sub{font-size:clamp(15px,2vw,19px);font-weight:500;letter-spacing:.06em;margin:0 0 8px}
+.hero p.txt{max-width:560px;margin:0 auto 30px;opacity:.92}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.values{position:relative;z-index:2;margin-top:56px;display:flex;gap:10px 34px;flex-wrap:wrap;justify-content:center;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.9)}
+
+/* ph */
+.ph{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--yellow),#efe0b8);display:grid;place-items:center;color:var(--gold);font-size:13px;text-align:center;padding:10px}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+/* offer */
+#ponuda{background:var(--white)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.grid{grid-template-columns:1fr}}
+.card{background:var(--cream);border-radius:22px;overflow:hidden;cursor:pointer;border:0;text-align:left;padding:0;font:inherit;color:inherit;transition:.3s}
+.card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(31,42,58,.12)}
+.card .ph{aspect-ratio:5/6;border-radius:0}.card .ph img{object-position:50% 40%}
+.card div.b{padding:22px 24px 26px}
+.card h3{font-size:18px;font-weight:500;letter-spacing:.04em;margin-bottom:8px}.card p{margin:0;font-size:15px;opacity:.8}
+.card em{display:inline-block;margin-top:14px;font-style:normal;font-size:13px;color:var(--gold);font-weight:600;letter-spacing:.06em}
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+@media(max-width:800px){.about{grid-template-columns:1fr;gap:36px}}
+.about .ph{aspect-ratio:4/5;border-radius:28px}
+.about q{display:block;font-family:"Montserrat",sans-serif;font-style:italic;font-weight:300;font-size:19px;line-height:1.7;margin:22px 0;padding-left:18px;border-left:2px solid var(--logo);quotes:none}
+.sign{font-family:"Great Vibes","Snell Roundhand",cursive;color:var(--navy);font-size:34px;line-height:1.2}
+/* gallery */
+#galerija{background:var(--white)}
+.filters{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:28px 0 36px}
+.filters button{border:1px solid var(--line);background:transparent;padding:9px 22px;border-radius:999px;font:500 12px/1.2 "Montserrat",sans-serif;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;color:var(--navy)}
+.filters button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media(max-width:800px){.gal{grid-template-columns:repeat(2,1fr)}}
+.gal .ph{aspect-ratio:1;border-radius:14px;cursor:pointer;border:0;transition:.3s}.gal .ph:hover{transform:scale(1.03)}
+.gal .ph[hidden]{display:none}
+.vids{margin-top:80px;text-align:center}
+.vgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:28px;max-width:760px;margin-inline:auto}
+@media(max-width:560px){.vgrid{grid-template-columns:1fr}}
+.vgrid .ph{aspect-ratio:9/16;border-radius:20px;cursor:pointer;border:0;max-height:480px;width:100%}
+.vgrid .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.play{position:absolute;width:64px;height:64px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;font-size:22px;color:var(--navy);z-index:2}
+/* promise */
+.pro{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
+@media(max-width:800px){.pro{grid-template-columns:1fr}}
+.pro>div{background:var(--yellow);border-radius:22px;padding:34px 28px}
+.pro h3{font-size:17px;font-weight:500;letter-spacing:.03em;margin-bottom:10px}.pro p{margin:0;font-size:15px}
+/* contact */
+#kontakt{background:var(--navy);color:#fff}
+#kontakt .eyebrow{color:var(--logo)}
+.cgrid{display:grid;grid-template-columns:1fr 1.2fr;gap:56px}
+@media(max-width:860px){.cgrid{grid-template-columns:1fr;gap:40px}}
+.info p{margin:0 0 22px}.info b{display:block;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--logo);margin-bottom:4px}
+.info a{color:#fff}
+form{background:#fff;color:var(--navy);border-radius:24px;padding:32px}
+label{display:block;font-size:13px;font-weight:600;margin:0 0 6px}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--cream);color:var(--navy);margin-bottom:16px}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--logo);border-color:transparent}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:520px){.row{grid-template-columns:1fr}}
+form .btn{width:100%;background:#25D366;border-color:#25D366;color:#073b1b}
+.note{font-size:13px;opacity:.7;margin:14px 0 0;text-align:center}
+footer{background:#161e2b;color:rgba(255,255,255,.75);padding:48px 24px calc(32px + env(safe-area-inset-bottom,0px));font-size:14px;text-align:center}
+footer a{color:var(--logo)}footer h3{color:var(--logo);font-size:15px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px}footer h3 b{font-weight:800}
+/* modal */
+.modal{position:fixed;inset:0;z-index:100;background:rgba(15,20,30,.78);display:none;align-items:center;justify-content:center;padding:20px}
+.modal.on{display:flex}
+.box{background:var(--cream);border-radius:24px;max-width:760px;width:100%;max-height:90vh;overflow:auto;position:relative}
+.box .ph{aspect-ratio:16/9;border-radius:0}.box .ph img{object-position:50% 45%}.box .pic{display:block;width:100%;border-radius:12px;margin-top:12px}
+.box .in{padding:28px 32px 34px}.box h3{font-size:24px;font-weight:400;letter-spacing:.03em;margin-bottom:12px}
+.x{position:absolute;top:12px;right:12px;width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,255,255,.92);font-size:22px;cursor:pointer;z-index:5}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:18px}@media(max-width:560px){.cols{grid-template-columns:1fr}}
+.cols h4{margin:0 0 8px;color:var(--gold);font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+.cols ul{margin:0;padding-left:18px;font-size:15px}
+.strip{display:flex;flex-direction:column;gap:10px}.strip img{display:block;width:100%;aspect-ratio:50/39;object-fit:cover;border-radius:12px}
+.box.lb{width:auto;max-width:94vw;background:transparent;overflow:visible}.lb img,.lb video{max-width:92vw;max-height:84vh;border-radius:14px}.lb video{display:block;margin:0 auto;height:min(84vh,860px);width:auto;aspect-ratio:9/16;object-fit:contain;background:#000}
+.lb .ph{width:min(90vw,820px);height:min(78vh,900px);aspect-ratio:auto;border-radius:14px;background:transparent}.lb .ph img{object-fit:contain!important;object-position:center!important}
+.arr{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:0;background:rgba(255,255,255,.92);font-size:22px;cursor:pointer}
+.arr.l{left:14px}.arr.r{right:14px}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
+
+
+/* ===== SPLASH (uvodni ekran) ===== */
+#splash{position:fixed;inset:0;z-index:1000;background:var(--cream);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;transition:opacity .8s ease,visibility .8s}
+#splash.out{opacity:0;visibility:hidden;pointer-events:none}
+#splash svg{height:min(62vh,520px);width:auto;max-width:86vw;overflow:visible}
+#splash path{fill:none;stroke:#b08d26;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:sdraw .55s ease-out forwards;animation-delay:var(--d)}
+@keyframes sdraw{to{stroke-dashoffset:0}}
+#splash .sname{text-align:center;opacity:0;transform:translateY(8px);animation:sup .7s ease forwards;animation-delay:1.9s}
+#splash .sname b{display:block;font:400 clamp(38px,9vw,56px)/1.1 "Great Vibes","Snell Roundhand",cursive;color:var(--navy);font-weight:400}
+#splash .sname span{font:500 11px/1.6 "Montserrat",sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#b08d26}
+@keyframes sup{to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){#splash path{animation-duration:.01s;animation-delay:0s}#splash .sname{animation-delay:0s;animation-duration:.01s}}
+
+.ico{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.values span{display:inline-flex;align-items:center;gap:9px}.values .ico{color:var(--logo);width:20px;height:20px}
+.pro .ico{display:block;width:42px;height:42px;color:var(--gold);margin-bottom:14px;stroke-width:1.2}
+.nw{white-space:nowrap}
+
+input[type=date],input[type=number]{-webkit-appearance:none;appearance:none;display:block;min-width:0;max-width:100%;height:48px;line-height:1.2;text-align:left}
+input[type=date]::-webkit-date-and-time-value{text-align:left;margin:0;min-height:1.2em}
+input[type=date]::-webkit-datetime-edit{padding:0}
+.row>div{min-width:0}form input,form select{height:48px}
+
+.pro{align-items:stretch}
+.pro>div{display:flex;flex-direction:column;justify-content:center;outline:1px solid rgba(139,115,69,.55);outline-offset:-12px;padding:44px 38px}
+.pv{position:relative;border:0;padding:0;border-radius:22px;overflow:hidden;cursor:pointer;aspect-ratio:3/4;min-height:400px;background:#000;text-align:left;color:#fff;font:inherit;display:block;width:100%}
+.pv>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s}.pv:hover>img{transform:scale(1.04)}
+.pv::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(31,42,58,.9) 0%,rgba(31,42,58,.55) 42%,rgba(31,42,58,0) 70%)}
+.pv .pt{position:absolute;left:0;right:0;bottom:0;padding:26px 24px 28px;z-index:2}
+.pv .pt h3{color:#fff}.pv .pt p{color:rgba(255,255,255,.92)}.pv .ico{color:var(--logo);width:34px;height:34px;margin-bottom:10px}
+.pv .play{top:16px;right:16px;width:46px;height:46px;font-size:16px;z-index:3;padding-left:3px}
+@media(max-width:800px){.pv{aspect-ratio:4/5;min-height:0}.pro>div{padding:34px 28px}}
+
+/* ===== OBEĆANJE: trake od ivice do ivice ===== */
+section.promise{padding-bottom:0}
+.bands{margin:48px -24px 0}
+.band{position:relative;display:grid;grid-template-columns:1fr 1fr;min-height:540px;overflow:hidden;text-align:left}
+.band.rev .bv{order:2}
+.bv{position:relative;display:block;width:100%;min-height:540px;border:0;padding:0;background:#000;cursor:pointer;overflow:hidden}
+.bv img,.bv video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.bv .play{top:20px;right:20px;width:48px;height:48px;font-size:16px;padding-left:3px;z-index:3}
+.bt{background:var(--yellow);display:flex;flex-direction:column;justify-content:center;padding:clamp(36px,7vw,110px)}
+.bt .ico{width:46px;height:46px;color:var(--gold);margin-bottom:22px;stroke-width:1.1}
+.bt h3{font-size:clamp(26px,3.3vw,42px);font-weight:300;line-height:1.2;margin:0 0 16px}
+.bt p{margin:0;font-size:17px;max-width:420px}
+.band.plain{display:block;min-height:0;background:var(--yellow);text-align:center;padding:84px 24px}
+.band.plain::before{content:"";position:absolute;inset:18px;border:1px solid rgba(139,115,69,.55);pointer-events:none}
+.band.plain .bt{padding:0;align-items:center;background:none}.band.plain p{max-width:520px}
+@media(max-width:800px){
+.bands{margin-inline:-24px}
+.band:not(.plain){display:block;height:min(80vh,540px);min-height:0}
+.band:not(.plain) .bv{position:absolute;inset:0;min-height:0}
+.band:not(.plain) .bt{position:absolute;left:0;right:0;bottom:0;z-index:2;background:linear-gradient(to top,rgba(31,42,58,.92) 0%,rgba(31,42,58,.6) 55%,rgba(31,42,58,0) 100%);color:#fff;padding:90px 24px 30px;pointer-events:none}
+.band:not(.plain) .bt .ico{color:var(--logo);width:36px;height:36px;margin-bottom:10px}
+.band:not(.plain) .bt h3{font-size:28px}.band:not(.plain) .bt p{font-size:16px;color:rgba(255,255,255,.93)}
+.band.plain{padding:64px 24px}}
+
+.gal .ph.more{display:none}
+.galmore{margin-top:28px}
+#galmore[hidden]{display:none}.credit{margin:6px 0 0;font-size:12px;letter-spacing:.06em;opacity:.7}.credit a{text-decoration:none}.credit a:hover{text-decoration:underline}</style>
+</head>
+<body>
+<header><div class="nav">
+<a class="logo" href="#top" aria-label="Emily Cake Studio – početak"><img src="slike/logo-mono.png" alt="Logo Emily Cake Studio – zlatno slovo E" onerror="this.outerHTML='<span class=&quot;fallback&quot;>E</span>'"><span><b>Emily</b> Cake Studio</span></a>
+<nav><button class="burger" id="burger" aria-label="Meni" aria-expanded="false"><span></span><span></span><span></span></button>
+<ul id="menu"><li><a href="#onama">O nama</a></li><li><a href="#ponuda">Naša ponuda</a></li><li><a href="#galerija">Galerija</a></li><li><a href="#kontakt">Kontakt</a></li></ul></nav>
+</div></header>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-straw" viewBox="0 0 24 24"><path d="M12 21C6 17 5 11 6.5 9c2-1 4-.5 5.5 0 1.5-.5 3.5-1 5.5 0C19 11 18 17 12 21Z"/><path d="M12 9V5M9.5 6.5 12 8l2.5-1.5M12 5l-2-1.5M12 5l2-1.5M10 13v.01M14 13v.01M12 16v.01"/></symbol>
+<symbol id="i-flower" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1.8"/><g><path d="M12 10C10 7 10 4 12 3c2 1 2 4 0 7Z"/><path d="M12 10C10 7 10 4 12 3c2 1 2 4 0 7Z" transform="rotate(72 12 12)"/><path d="M12 10C10 7 10 4 12 3c2 1 2 4 0 7Z" transform="rotate(144 12 12)"/><path d="M12 10C10 7 10 4 12 3c2 1 2 4 0 7Z" transform="rotate(216 12 12)"/><path d="M12 10C10 7 10 4 12 3c2 1 2 4 0 7Z" transform="rotate(288 12 12)"/></g></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20C4 14 3 9 6 6.5 8.500 4.800 11 6 12 8c1-2 3.500-3.200 6-1.500 3 2.500 2 7.500-6 13.500Z"/></symbol>
+<symbol id="i-leaf" viewBox="0 0 24 24"><path d="M12 21V8M12 14c-4 0-6-3-6-6 3 0 6 2 6 6ZM12 11c4 0 6-3 6-6-3 0-6 2-6 6Z"/></symbol>
+<symbol id="i-rosette" viewBox="0 0 24 24"><path d="M12 3l1.600 5.200L19 7l-3.800 4L21 12l-5.800 1 3.800 4-5.400-1.400L12 21l-1.600-5.400L5 17l3.800-4L3 12l5.800-1L5 7l5.400 1.200Z"/><circle cx="12" cy="12" r="1.500"/></symbol>
+<symbol id="i-hands" viewBox="0 0 24 24"><path d="M12 11C8.500 8.500 8 6.500 9.500 5.300 10.700 4.400 12 5 12 6.300 12 5 13.300 4.400 14.500 5.300 16 6.500 15.500 8.500 12 11Z"/><path d="M2 13v7M2 14c3-1 5 0 7 1h4c1.200 0 1.600 1.300.4 1.700L9 17.500M13 15.500l5-2.500c1.500-.7 3 .7 1.700 1.900L14 20c-1 .8-2 1-3 1H8c-2 0-4-.5-6-1.500"/></symbol>
+</defs></svg><div id="splash" aria-hidden="true">
+<svg viewBox="20 95 260 295" xmlns="http://www.w3.org/2000/svg" role="img">
+<path pathLength="1" d="M30 350 V357 Q150 383 270 357 V350" style="--d:0.15s"/>
+<path pathLength="1" d="M30 350 Q150 376 270 350" style="--d:0.20s"/>
+<path pathLength="1" d="M30 350 Q150 324 270 350" style="--d:0.21s"/>
+<path pathLength="1" d="M60 348 V270" style="--d:0.22s"/>
+<path pathLength="1" d="M240 348 V270" style="--d:0.22s"/>
+<path pathLength="1" d="M60 348 Q150.0 367.8 240 348" style="--d:0.22s"/>
+<path pathLength="1" d="M150.0 341.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.25s"/>
+<path pathLength="1" d="M142.8 340.4 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.26s"/>
+<path pathLength="1" d="M157.2 340.4 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.26s"/>
+<path pathLength="1" d="M132.0 329.8 Q150.0 347.8 168.0 329.8" style="--d:0.27s"/>
+<path pathLength="1" d="M114.0 338.6 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.27s"/>
+<path pathLength="1" d="M186.0 338.6 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.27s"/>
+<path pathLength="1" d="M135.0 331.8 Q150.0 342.8 165.0 331.8" style="--d:0.28s"/>
+<path pathLength="1" d="M106.8 337.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.28s"/>
+<path pathLength="1" d="M121.2 337.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.28s"/>
+<path pathLength="1" d="M178.8 337.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.28s"/>
+<path pathLength="1" d="M193.2 337.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.28s"/>
+<path pathLength="1" d="M96.0 326.6 Q114.0 344.6 132.0 326.6" style="--d:0.29s"/>
+<path pathLength="1" d="M168.0 326.6 Q186.0 344.6 204.0 326.6" style="--d:0.29s"/>
+<path pathLength="1" d="M99.0 328.6 Q114.0 339.6 129.0 328.6" style="--d:0.30s"/>
+<path pathLength="1" d="M171.0 328.6 Q186.0 339.6 201.0 328.6" style="--d:0.30s"/>
+<path pathLength="1" d="M168.0 327.8 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.32s"/>
+<path pathLength="1" d="M78.0 329.1 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.33s"/>
+<path pathLength="1" d="M222.0 329.1 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.33s"/>
+<path pathLength="1" d="M70.8 327.7 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.34s"/>
+<path pathLength="1" d="M85.2 327.7 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.34s"/>
+<path pathLength="1" d="M214.8 327.7 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.34s"/>
+<path pathLength="1" d="M229.2 327.7 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.34s"/>
+<path pathLength="1" d="M132.0 324.6 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.34s"/>
+<path pathLength="1" d="M204.0 324.6 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.34s"/>
+<path pathLength="1" d="M60.0 317.1 Q78.0 335.1 96.0 317.1" style="--d:0.34s"/>
+<path pathLength="1" d="M204.0 317.1 Q222.0 335.1 240.0 317.1" style="--d:0.34s"/>
+<path pathLength="1" d="M63.0 319.1 Q78.0 330.1 93.0 319.1" style="--d:0.35s"/>
+<path pathLength="1" d="M207.0 319.1 Q222.0 330.1 237.0 319.1" style="--d:0.35s"/>
+<path pathLength="1" d="M150.0 320.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.38s"/>
+<path pathLength="1" d="M142.8 319.5 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.38s"/>
+<path pathLength="1" d="M157.2 319.5 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.38s"/>
+<path pathLength="1" d="M132.0 309.8 Q150.0 325.8 168.0 309.8" style="--d:0.39s"/>
+<path pathLength="1" d="M114.0 317.6 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.39s"/>
+<path pathLength="1" d="M186.0 317.6 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.39s"/>
+<path pathLength="1" d="M96.0 315.1 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.40s"/>
+<path pathLength="1" d="M240.0 315.1 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.40s"/>
+<path pathLength="1" d="M135.0 311.8 Q150.0 320.8 165.0 311.8" style="--d:0.40s"/>
+<path pathLength="1" d="M106.8 316.4 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.40s"/>
+<path pathLength="1" d="M121.2 316.4 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.40s"/>
+<path pathLength="1" d="M178.8 316.4 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.40s"/>
+<path pathLength="1" d="M193.2 316.4 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.40s"/>
+<path pathLength="1" d="M96.0 306.6 Q114.0 322.6 132.0 306.6" style="--d:0.41s"/>
+<path pathLength="1" d="M168.0 306.6 Q186.0 322.6 204.0 306.6" style="--d:0.41s"/>
+<path pathLength="1" d="M99.0 308.6 Q114.0 317.6 129.0 308.6" style="--d:0.42s"/>
+<path pathLength="1" d="M171.0 308.6 Q186.0 317.6 201.0 308.6" style="--d:0.42s"/>
+<path pathLength="1" d="M168.0 307.8 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.44s"/>
+<path pathLength="1" d="M78.0 308.1 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.45s"/>
+<path pathLength="1" d="M222.0 308.1 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.45s"/>
+<path pathLength="1" d="M70.8 306.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.46s"/>
+<path pathLength="1" d="M85.2 306.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.46s"/>
+<path pathLength="1" d="M214.8 306.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.46s"/>
+<path pathLength="1" d="M229.2 306.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.46s"/>
+<path pathLength="1" d="M132.0 304.6 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.46s"/>
+<path pathLength="1" d="M204.0 304.6 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.46s"/>
+<path pathLength="1" d="M60.0 297.1 Q78.0 313.1 96.0 297.1" style="--d:0.47s"/>
+<path pathLength="1" d="M204.0 297.1 Q222.0 313.1 240.0 297.1" style="--d:0.47s"/>
+<path pathLength="1" d="M63.0 299.1 Q78.0 308.1 93.0 299.1" style="--d:0.47s"/>
+<path pathLength="1" d="M207.0 299.1 Q222.0 308.1 237.0 299.1" style="--d:0.47s"/>
+<path pathLength="1" d="M96.0 295.1 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.51s"/>
+<path pathLength="1" d="M240.0 295.1 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.51s"/>
+<path pathLength="1" d="M60.0 271.0 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M72.0 275.9 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M84.0 280.2 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M96.0 283.7 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M108.0 286.5 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M120.0 288.6 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M132.0 290.0 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M144.0 290.7 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M156.0 290.7 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M168.0 290.0 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M180.0 288.6 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M192.0 286.5 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M204.0 283.7 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M216.0 280.2 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M228.0 275.9 q6.0 5 12.0 0" style="--d:0.61s"/>
+<path pathLength="1" d="M60 270 Q150.0 250.2 240 270 Q150.0 289.8 60 270" style="--d:0.67s"/>
+<path pathLength="1" d="M86 270 V200" style="--d:0.67s"/>
+<path pathLength="1" d="M214 270 V200" style="--d:0.67s"/>
+<path pathLength="1" d="M86 270 Q150.0 284.08 214 270" style="--d:0.67s"/>
+<path pathLength="1" d="M134.0 265.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.70s"/>
+<path pathLength="1" d="M166.0 265.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.70s"/>
+<path pathLength="1" d="M127.6 263.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.70s"/>
+<path pathLength="1" d="M140.4 263.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.70s"/>
+<path pathLength="1" d="M159.6 263.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.70s"/>
+<path pathLength="1" d="M172.4 263.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.70s"/>
+<path pathLength="1" d="M118.0 253.2 Q134.0 271.2 150.0 253.2" style="--d:0.71s"/>
+<path pathLength="1" d="M150.0 253.2 Q166.0 271.2 182.0 253.2" style="--d:0.71s"/>
+<path pathLength="1" d="M121.0 255.2 Q134.0 266.2 147.0 255.2" style="--d:0.72s"/>
+<path pathLength="1" d="M153.0 255.2 Q166.0 266.2 179.0 255.2" style="--d:0.72s"/>
+<path pathLength="1" d="M102.0 258.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.74s"/>
+<path pathLength="1" d="M198.0 258.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.74s"/>
+<path pathLength="1" d="M95.6 256.7 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.74s"/>
+<path pathLength="1" d="M108.4 256.7 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.74s"/>
+<path pathLength="1" d="M191.6 256.7 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.74s"/>
+<path pathLength="1" d="M204.4 256.7 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.74s"/>
+<path pathLength="1" d="M86.0 246.2 Q102.0 264.2 118.0 246.2" style="--d:0.75s"/>
+<path pathLength="1" d="M182.0 246.2 Q198.0 264.2 214.0 246.2" style="--d:0.75s"/>
+<path pathLength="1" d="M89.0 248.2 Q102.0 259.2 115.0 248.2" style="--d:0.76s"/>
+<path pathLength="1" d="M185.0 248.2 Q198.0 259.2 211.0 248.2" style="--d:0.76s"/>
+<path pathLength="1" d="M150.0 251.2 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.76s"/>
+<path pathLength="1" d="M182.0 251.2 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.76s"/>
+<path pathLength="1" d="M118.0 244.2 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.81s"/>
+<path pathLength="1" d="M214.0 244.2 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.81s"/>
+<path pathLength="1" d="M134.0 244.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.82s"/>
+<path pathLength="1" d="M166.0 244.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.82s"/>
+<path pathLength="1" d="M127.6 242.9 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.82s"/>
+<path pathLength="1" d="M140.4 242.9 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.82s"/>
+<path pathLength="1" d="M159.6 242.9 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.82s"/>
+<path pathLength="1" d="M172.4 242.9 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.82s"/>
+<path pathLength="1" d="M118.0 233.2 Q134.0 249.2 150.0 233.2" style="--d:0.83s"/>
+<path pathLength="1" d="M150.0 233.2 Q166.0 249.2 182.0 233.2" style="--d:0.83s"/>
+<path pathLength="1" d="M121.0 235.2 Q134.0 244.2 147.0 235.2" style="--d:0.84s"/>
+<path pathLength="1" d="M153.0 235.2 Q166.0 244.2 179.0 235.2" style="--d:0.84s"/>
+<path pathLength="1" d="M102.0 237.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.86s"/>
+<path pathLength="1" d="M198.0 237.2 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.86s"/>
+<path pathLength="1" d="M95.6 235.9 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.86s"/>
+<path pathLength="1" d="M108.4 235.9 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.86s"/>
+<path pathLength="1" d="M191.6 235.9 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.86s"/>
+<path pathLength="1" d="M204.4 235.9 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:0.86s"/>
+<path pathLength="1" d="M86.0 226.2 Q102.0 242.2 118.0 226.2" style="--d:0.87s"/>
+<path pathLength="1" d="M182.0 226.2 Q198.0 242.2 214.0 226.2" style="--d:0.87s"/>
+<path pathLength="1" d="M150.0 231.2 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.88s"/>
+<path pathLength="1" d="M182.0 231.2 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.88s"/>
+<path pathLength="1" d="M89.0 228.2 Q102.0 237.2 115.0 228.2" style="--d:0.88s"/>
+<path pathLength="1" d="M185.0 228.2 Q198.0 237.2 211.0 228.2" style="--d:0.88s"/>
+<path pathLength="1" d="M118.0 224.2 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.92s"/>
+<path pathLength="1" d="M214.0 224.2 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:0.92s"/>
+<path pathLength="1" d="M86.0 201.0 q6.4 5 12.8 0" style="--d:1.03s"/>
+<path pathLength="1" d="M98.8 206.1 q6.4 5 12.8 0" style="--d:1.03s"/>
+<path pathLength="1" d="M111.6 210.0 q6.4 5 12.8 0" style="--d:1.03s"/>
+<path pathLength="1" d="M124.4 212.8 q6.4 5 12.8 0" style="--d:1.03s"/>
+<path pathLength="1" d="M137.2 214.5 q6.4 5 12.8 0" style="--d:1.03s"/>
+<path pathLength="1" d="M150.0 215.1 q6.4 5 12.8 0" style="--d:1.03s"/>
+<path pathLength="1" d="M162.8 214.5 q6.4 5 12.8 0" style="--d:1.03s"/>
+<path pathLength="1" d="M175.6 212.8 q6.4 5 12.8 0" style="--d:1.03s"/>
+<path pathLength="1" d="M188.4 210.0 q6.4 5 12.8 0" style="--d:1.03s"/>
+<path pathLength="1" d="M201.2 206.1 q6.4 5 12.8 0" style="--d:1.03s"/>
+<path pathLength="1" d="M86 200 Q150.0 185.92 214 200 Q150.0 214.08 86 200" style="--d:1.07s"/>
+<path pathLength="1" d="M110 200 V140" style="--d:1.07s"/>
+<path pathLength="1" d="M190 200 V140" style="--d:1.07s"/>
+<path pathLength="1" d="M110 200 Q150.0 208.8 190 200" style="--d:1.07s"/>
+<path pathLength="1" d="M150.0 179.8 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:1.19s"/>
+<path pathLength="1" d="M144.7 178.5 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:1.19s"/>
+<path pathLength="1" d="M155.3 178.5 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:1.19s"/>
+<path pathLength="1" d="M136.7 168.8 Q150.0 184.8 163.3 168.8" style="--d:1.20s"/>
+<path pathLength="1" d="M123.3 175.9 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:1.21s"/>
+<path pathLength="1" d="M176.7 175.9 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:1.21s"/>
+<path pathLength="1" d="M139.7 170.8 Q150.0 179.8 160.3 170.8" style="--d:1.21s"/>
+<path pathLength="1" d="M118.0 174.6 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:1.22s"/>
+<path pathLength="1" d="M128.7 174.6 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:1.22s"/>
+<path pathLength="1" d="M171.3 174.6 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:1.22s"/>
+<path pathLength="1" d="M182.0 174.6 m-1.6 0 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" style="--d:1.22s"/>
+<path pathLength="1" d="M110.0 164.9 Q123.3 180.9 136.7 164.9" style="--d:1.23s"/>
+<path pathLength="1" d="M163.3 164.9 Q176.7 180.9 190.0 164.9" style="--d:1.23s"/>
+<path pathLength="1" d="M113.0 166.9 Q123.3 175.9 133.7 166.9" style="--d:1.23s"/>
+<path pathLength="1" d="M166.3 166.9 Q176.7 175.9 187.0 166.9" style="--d:1.23s"/>
+<path pathLength="1" d="M163.3 166.8 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:1.25s"/>
+<path pathLength="1" d="M136.7 162.9 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:1.27s"/>
+<path pathLength="1" d="M190.0 162.9 m-2 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0" style="--d:1.27s"/>
+<path pathLength="1" d="M110.0 141.0 q6.7 5 13.3 0" style="--d:1.39s"/>
+<path pathLength="1" d="M123.3 145.9 q6.7 5 13.3 0" style="--d:1.39s"/>
+<path pathLength="1" d="M136.7 148.8 q6.7 5 13.3 0" style="--d:1.39s"/>
+<path pathLength="1" d="M150.0 149.8 q6.7 5 13.3 0" style="--d:1.39s"/>
+<path pathLength="1" d="M163.3 148.8 q6.7 5 13.3 0" style="--d:1.39s"/>
+<path pathLength="1" d="M176.7 145.9 q6.7 5 13.3 0" style="--d:1.39s"/>
+<path pathLength="1" d="M110 140 Q150.0 131.2 190 140 Q150.0 148.8 110 140" style="--d:1.42s"/>
+<path pathLength="1" d="M156 140 L162 118 L168 140 Z" style="--d:1.47s"/>
+<path pathLength="1" d="M139 140 L141 112 L149 112 L151 140" style="--d:1.50s"/>
+<path pathLength="1" d="M151 124 Q155 128 156 124" style="--d:1.51s"/>
+<path pathLength="1" d="M158.5 118 L165.5 118" style="--d:1.54s"/>
+<path pathLength="1" d="M162 112 m-4.5 0 a4.5 4.5 0 1 0 9 0 a4.5 4.5 0 1 0 -9 0" style="--d:1.59s"/>
+<path pathLength="1" d="M145 104 m-5 0 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0" style="--d:1.60s"/>
+</svg>
+<div class="sname"><b>Emily Cake Studio</b><span>Beograd</span></div>
+</div>
+<main id="top">
+<div class="hero">
+<picture class="bg"><source media="(max-width:700px)" srcset="slike/hero-m.jpg"><img src="slike/hero.jpg" alt="Ručno ukrašene bele torte sa mašnama i svećicama u bašti" fetchpriority="high"></picture>
+<h1><b>Emily</b> Cake Studio</h1>
+<p class="slogan"><span>slatki trenuci</span><span>koji ostaju u srcu</span></p>
+<p class="sub">Mali studio. Velika ljubav prema slatkom.</p>
+<p class="txt">Ručno stvaramo torte koje osvajaju na prvi pogled<br><span class="nw">za svaku vašu proslavu.</span></p>
+<div class="cta"><a class="btn light" href="#ponuda">Pogledajte ponudu</a><a class="btn light" href="#kontakt" style="background:transparent;color:#fff;border-color:#fff">Poručite</a></div>
+<div class="values"><span><svg class="ico" aria-hidden="true"><use href="#i-straw"/></svg>Pažljivo birani sastojci</span><span><svg class="ico" aria-hidden="true"><use href="#i-flower"/></svg>Dekoracija po vašoj želji</span><span><svg class="ico" aria-hidden="true"><use href="#i-heart"/></svg>Ljubav u svakom detalju</span></div>
+</div>
+
+<section id="ponuda"><div class="wrap center reveal">
+<div class="eyebrow">Naša ponuda</div><h2>Za sve vaše važne trenutke</h2>
+<div class="grid" id="cards" style="text-align:left"></div>
+</div></section>
+
+<section id="onama"><div class="wrap about reveal">
+<div class="ph" data-img="slike/biljana.jpg" data-alt="Biljana, vlasnica Emily Cake Studija, pored svojih ručno rađenih torti">Portret vlasnice</div>
+<div><div class="eyebrow">Upoznajte Emily Cake Studio</div><h2>Torta je deo uspomene</h2>
+<p>Emily Cake Studio osnovan je 2023. godine u Beogradu, u blizini Autokomande. Spajamo najkvalitetnije sastojke, ručnu izradu i posvećenost – za rođendane, slave, svadbe i poslovne događaje.</p>
+<q>Od prvog dogovora do poslednjeg najfinijeg detalja, vaša želja je naša inspiracija.</q>
+<div class="sign">Biljana — Srce i ruke <span class="nw">Emily Cake Studija</span></div></div>
+</div></section>
+
+<section id="galerija"><div class="wrap center reveal">
+<div class="eyebrow">Galerija</div><h2>Mali pogled na naše torte</h2>
+<div class="filters" id="filters"></div>
+<div class="gal" id="gal"></div>
+<p class="galmore"><button class="btn ghost" id="galmore" type="button">Prikaži više</button></p>
+<p style="margin-top:32px"><a class="btn ghost" href="https://www.instagram.com/emilycakestudio" target="_blank" rel="noopener">Još inspiracije na Instagramu</a></p>
+</div></section>
+
+<section class="promise"><div class="wrap center reveal">
+<div class="eyebrow">Naše obećanje</div><h2>Lepo na oko. Još lepše na ukus.</h2>
+</div>
+<div class="bands">
+<div class="band"><button class="bv" data-vid="video/radionica1.mp4" aria-label="Pustite video: Svežina bez kompromisa"><img src="slike/video1.jpg" alt="Biljana raspoređuje orašaste plodove u radionici" loading="lazy" style="object-position:50% 40%"><video muted loop playsinline preload="none" poster="slike/video1.jpg" src="video/radionica1.mp4" style="object-position:50% 40%" aria-hidden="true"></video><span class="play">▶</span></button><div class="bt"><svg class="ico" aria-hidden="true"><use href="#i-leaf"/></svg><h3>Svežina bez kompromisa</h3><p>Pažljivo biramo sastojke i pravimo sve sveže, po vašem datumu.</p></div></div>
+<div class="band rev"><button class="bv" data-vid="video/radionica2.mp4" aria-label="Pustite video: Unikatna dekoracija"><img src="slike/video2.jpg" alt="Ukrašavanje torte kremom iz špric kese" loading="lazy" style="object-position:50% 55%"><video muted loop playsinline preload="none" poster="slike/video2.jpg" src="video/radionica2.mp4" style="object-position:50% 55%" aria-hidden="true"></video><span class="play">▶</span></button><div class="bt"><svg class="ico" aria-hidden="true"><use href="#i-rosette"/></svg><h3>Unikatna dekoracija</h3><p>Svaka torta nastaje po vašoj želji – boje, motivi i detalji su vaši.</p></div></div>
+<div class="band"><button class="bv" data-vid="video/radionica3.mp4" aria-label="Pustite video: Dogovor na koji računate"><img src="slike/video3.jpg" alt="Biljana priprema pavlovu sa šumskim voćem" loading="lazy" style="object-position:50% 55%"><video muted loop playsinline preload="none" poster="slike/video3.jpg" src="video/radionica3.mp4" style="object-position:50% 55%" aria-hidden="true"></video><span class="play">▶</span></button><div class="bt"><svg class="ico" aria-hidden="true"><use href="#i-hands"/></svg><h3>Dogovor na koji računate</h3><p>Jasan razgovor od početka do preuzimanja, bez iznenađenja.</p></div></div>
+</div></section>
+
+<section id="kontakt"><div class="wrap cgrid">
+<div class="info reveal"><div class="eyebrow">Kontakt i porudžbine</div><h2>Hajde da zajedno napravimo vašu tortu</h2><br>
+<p><b>Telefon</b><a href="tel:+381643141962">+381 64 3141 962</a></p>
+<p><b>Adresa</b><a href="https://www.google.com/maps/search/?api=1&query=Borisavljevi%C4%87eva+4+Beograd" target="_blank" rel="noopener">Borisavljevićeva 4, Beograd</a></p>
+<p><b>Radno vreme</b>Ponedeljak–subota, 09:00–17:00</p>
+<p><b>Instagram</b><a href="https://www.instagram.com/emilycakestudio" target="_blank" rel="noopener">@emilycakestudio</a></p></div>
+<form id="f" class="reveal">
+<div class="row"><div><label for="ime">Ime</label><input id="ime" required autocomplete="name"></div><div><label for="tel">Telefon</label><input id="tel" type="tel" autocomplete="tel"></div></div>
+<label for="kat">Šta želite da poručite</label><select id="kat"></select>
+<div class="row"><div><label for="dat">Datum proslave</label><input id="dat" type="date"></div><div><label for="gos">Broj gostiju</label><input id="gos" type="number" min="1"></div></div>
+<label for="zel">Želje i ideje</label><textarea id="zel" rows="4"></textarea>
+<a class="btn" id="wa" href="https://wa.me/381643141962" target="_blank" rel="noopener">Pošaljite upit preko WhatsApp-a</a>
+<p class="note">Dostupnost, cenu i detalje porudžbine potvrđujete u dogovoru sa nama.</p>
+</form></div></section>
+</main>
+
+<footer><h3><b>Emily</b> Cake Studio</h3><p>Slatki trenuci koji ostaju u srcu.</p>
+<p>Borisavljevićeva 4, Beograd · Pon–Sub 09:00–17:00<br><a href="tel:+381643141962">+381 64 3141 962</a> · <a href="https://www.instagram.com/emilycakestudio" target="_blank" rel="noopener">Instagram</a></p>
+<p>© <span id="y"></span> Emily Cake Studio</p>
+<p class="credit">Dizajn sajta: <a href="https://www.instagram.com/ljubica.design" target="_blank" rel="noopener">@ljubica.design</a></p></footer>
+
+<div class="modal" id="m"><div class="box" id="box"></div></div>
+
+<script>
+const $=s=>document.querySelector(s),L=a=>'<ul>'+a.map(x=>'<li>'+x+'</li>').join('')+'</ul>';
+const ph=(src,alt,cls='')=>`<div class="ph ${cls}" data-img="${src}" data-alt="${alt}">${alt}</div>`;
+const posni=['Šumsko voće','Jabuka','Orašasti plodovi','Orange','Jagoda','Čokolada'],mrsni=['Čoko lešnik','Borovnica','Orange','Malina','Pistać','Badem karamela'];
+const prem=[['Ferrero Gold','ferrero-gold'],['Limun Borovnica','limun-borovnica'],['Narandža Indijski Orah','narandza-indijski-orah'],['Pinacolada','pinacolada'],['Pistać Šumsko Voće','pistac-sumsko-voce']],klas=[['Ester Malina','ester-malina'],['Kapri','kapri'],['Mak Cherry','mak-cherry'],['Moskva','moskva'],['Čoko Plazma','coko-plazma'],['Čokolina','cokolina'],['Nirvana Orah','nirvana-orah'],['Snikers','snikers'],['Toffee','toffee']];
+const strip=(a,d)=>'<div class="strip">'+a.map(x=>`<img src="slike/ukusi/${d}-${x[1]}.jpg" alt="Presek ${d} torte: ${x[0]}" loading="lazy">`).join('')+'</div>';
+const O=[
+{k:'Svadbene torte',i:'svadbene',a:'Svadbena torta u plavoj boji sa šećernim cvećem i ručno oslikanim mladencima',t:'Raskošne, unikatne i moderne torte po vašoj želji.',h:'<p>Raskošne, unikatne i moderne torte po vašoj želji. Zajedno biramo izgled, veličinu i ukus.</p>'},
+{k:'Dečje torte',i:'decje',a:'Dečja torta u obliku dvorca sa zlatnim tornjevima, cvećem i oblakom od vate',t:'Inspirisane omiljenim junacima, bojama i željama mališana.',h:'<p>Inspirisane omiljenim junacima, bojama i željama mališana. Pošaljite nam temu proslave i broj gostiju.</p>'},
+{k:'Torte po želji',i:'po-zelji',a:'Dugačka torta ukrašena svežim cvećem, narcisima i lalama',t:'Rođendan, godišnjica, slava ili poslovni događaj.',h:'<p>Za rođendan, godišnjicu, slavu ili poslovni događaj. Možete nam poslati i fotografiju kao inspiraciju.</p>'},
+{k:'Koktel Box',i:'koktel-box',a:'Mini tartovi različitih ukusa na mermernoj podlozi',t:'Mini tartovi, posni i mrsni, za slave, rođendane i korporativne događaje.',h:'<p>Mini tartovi, posni i mrsni, za slave, rođendane i korporativne događaje.</p><div class="cols"><div><h4>Posni</h4>'+L(posni)+'<img class="pic" loading="lazy" src="slike/posni-info.jpg" alt="Posni mini tartovi: šumsko voće, jabuka, orašasti plodovi, orange, jagoda i čokolada – preseci sa opisom"></div><div><h4>Mrsni</h4>'+L(mrsni)+'<img class="pic" loading="lazy" src="slike/mrsni-info.jpg" alt="Mrsni mini tartovi: čoko lešnik, borovnica, orange, malina, pistać i badem karamela – preseci sa opisom"></div></div>'},
+{k:'Slatki sto',i:'slatki-sto',a:'Kapkejkovi i medenjaci sa belim mašnama na slatkom stolu',t:'Kapkejkovi, popsi, makaronsi, mini tartovi, medenjaci sa logom.',h:'<p>Kapkejkovi, popsi, desertne čašice, makaronsi, mini tartovi i medenjaci sa logom ili motivom. Slatkiši za korporativne i poslovne proslave. Sastav i količine po dogovoru.</p>'},
+{k:'Ukusi premium i klasik',i:'ukusi',a:'Presek torte Pistać Šumsko Voće sa slojevima kreme i šumskog voća',t:'Premium i klasik ukusi, od Ferrero Golda do Toffee-ja.',h:'<div class="cols"><div><h4>Premium</h4>'+strip(prem,'premium')+'</div><div><h4>Klasik</h4>'+strip(klas,'klasik')+'</div></div><p style="font-size:14px;margin-top:18px">Za sastojke i alergene kontaktirajte nas.</p>'}];
+$('#cards').innerHTML=O.map((o,n)=>`<button class="card" data-n="${n}">${ph(`slike/${o.i}.jpg`,o.a)}<div class="b"><h3>${o.k}</h3><p>${o.t}</p><em>Detaljnije →</em></div></button>`).join('');
+$('#kat').innerHTML=O.map(o=>`<option>${o.k}</option>`).join('')+'<option>Nešto drugo</option>';
+// gallery
+const G=[['Svadbene torte','Višespratna plava svadbena torta sa šećernim cvećem i oslikanim mladencima','galerija-1'],['Svadbene torte','Torta sa limunovima, plavom šećernom čipkom i draperijom u bašti','galerija-2'],['Svadbene torte','Detalj torte sa limunovima, listovima i plavom čipkom','galerija-3'],['Dečje torte','Dečja torta sa šarenim jajima i cvetićima','galerija-4'],['Ostalo','Dugačka torta ukrašena svežim narcisima i lalama','galerija-5'],['Ostalo','Bele torte sa mašnama i svećicama na kamenoj ogradi','galerija-6'],['Slatki sto','Kapkejkovi i medenjaci sa belim mašnama','galerija-7'],['Slatki sto','Desertne čašice sa voćem, čokoladom i karamelom','galerija-8'],['Slatki sto','Mrsni mini tartovi sa kremom i voćem','galerija-9'],['Slatki sto','Posni mini tartovi u čokoladi','galerija-10'],['Studio','Priprema krema u radionici studija','galerija-11'],['Studio','Ručno oslikavanje mladenaca na torti','galerija-12'],['Dečje torte','Torta u obliku dvorca sa zlatnim tornjevima na oblaku od vate','galerija-13'],['Dečje torte','Vilinska torta za prvi rođendan sa vilama, pečurkama i leptirima','galerija-14'],['Dečje torte','Vrteška torta u bordo i zlatnoj boji sa mašnama','galerija-15'],['Dečje torte','Vrteška torta u plavoj i zlatnoj boji sa kamejama','galerija-16'],['Dečje torte','Vrteška torta u roze i zlatnoj boji sa cvetovima','galerija-17'],['Dečje torte','Dvospratna mint torta sa zečićima za prvi rođendan','galerija-18'],['Dečje torte','Plava torta sa medvedićem, oblacima i balonima na vazduh','galerija-19'],['Dečje torte','Troetažna torta sa medvedićima i balonom na vazduh','galerija-20'],['Svadbene torte','Svadbena torta sa malinama i natpisom „Happily ever after“','galerija-21'],['Svadbene torte','Moderna bela svadbena torta sa draperijom od fondana','galerija-22'],['Svadbene torte','Visoka Lambeth svadbena torta sa mladom i mladoženjom na vrhu','galerija-23'],['Svadbene torte','Lambeth svadbena torta sa višnjama i kremastim girlandama','galerija-24'],['Svadbene torte','Mala vintage torta „Just married“','galerija-25'],['Svadbene torte','Pravougaona zelena torta sa anturijumima, grožđem i cvećem','galerija-26'],['Svadbene torte','Bela svadbena torta sa velikom mašnom od fondana','galerija-27'],['Svadbene torte','Svadbena torta sa šećernim ružama i cvećem','galerija-28'],['Slatki sto','Kejk popsi sa sivim trakicama na mint stalku','galerija-29'],['Slatki sto','Kapkejkovi sa fondan zastavicama za prvi rođendan','galerija-30'],['Slatki sto','Roze slatki sto: kapkejkovi, kejksikli i keksići sa mašnicama','galerija-31'],['Slatki sto','Kejksikli i kejk popsi sa bordo mašnama i zlatnim ramovima','galerija-32'],['Slatki sto','Kapkejkovi sa konjićima sa vrteške i kejksikli sa zlatnim ramovima','galerija-33'],['Slatki sto','Čašice sa čizkejkom i limunom','galerija-34'],['Slatki sto','Kejk pop, kejksikl i ukrašeni keks na slatkom stolu','galerija-35'],['Slatki sto','Kapkejkovi sa fondan cvetovima','galerija-36'],['Svadbene torte','Višespratna torta sa zelenim somotskim mašnama i svećama','galerija-37'],['Svadbene torte','Bele torte sa draperijom i mašnama od fondana','galerija-38'],['Svadbene torte','Torta sa limunovima, plavom šećernom čipkom i draperijom','galerija-39'],['Studio','Mešanje roze krema u radionici','galerija-40'],['Studio','Ravnanje krema na torti u radionici','galerija-41'],['Studio','Torta za prvi rođendan sa fondan balončićima, u radionici','galerija-42'],['Studio','Beze spremne za pečenje u rerni','galerija-43'],['Studio','Beze na dlanu','galerija-44'],['Studio','Premazivanje velike kvadratne torte kremom','galerija-45']].map(g=>({c:g[0],a:g[1],s:'slike/'+g[2]+'.jpg'}));
+let cur='Sve',vis=[],idx=0,exp=false;const LIM=8;
+function applyG(){let k=0;document.querySelectorAll('#gal .ph').forEach(p=>{const ok=cur=='Sve'||p.dataset.c==cur;p.hidden=!ok;if(ok){k++;p.classList.toggle('more',!exp&&k>LIM)}});const b=document.getElementById('galmore');b.hidden=k<=LIM;b.textContent=exp?'Prikaži manje':'Prikaži više ('+(k-LIM)+')'}
+$('#filters').innerHTML=['Sve','Svadbene torte','Dečje torte','Slatki sto','Studio'].map(f=>`<button class="${f=='Sve'?'on':''}">${f}</button>`).join('');
+$('#gal').innerHTML=G.map((g,n)=>`<button class="ph" data-g="${n}" data-c="${g.c}" data-img="${g.s}" data-alt="${g.a}" aria-label="${g.a}">${g.a}</button>`).join('');
+$('#filters').onclick=e=>{if(e.target.tagName!='BUTTON')return;cur=e.target.textContent;document.querySelectorAll('#filters button').forEach(b=>b.classList.toggle('on',b==e.target));exp=false;applyG()};
+document.getElementById('galmore').onclick=()=>{exp=!exp;applyG();if(!exp)document.getElementById('filters').scrollIntoView({behavior:'smooth',block:'center'})};applyG();
+// images: load if file exists, otherwise placeholder text stays
+document.querySelectorAll('[data-img]').forEach(el=>{const im=new Image();im.alt=el.dataset.alt;im.onload=()=>{el.textContent='';el.append(im)};im.src=el.dataset.img});
+// modal
+const m=$('#m'),box=$('#box');
+const close='<button class="x" aria-label="Zatvori">×</button>';
+function openM(h,lb){box.className='box'+(lb?' lb':'');box.innerHTML=close+h;m.classList.add('on');document.body.style.overflow='hidden';box.querySelectorAll('[data-img]').forEach(el=>{const im=new Image();im.alt=el.dataset.alt;im.onload=()=>{el.textContent='';el.append(im)};im.src=el.dataset.img})}
+function shut(){m.classList.remove('on');document.body.style.overflow='';box.innerHTML=''}
+function show(){const g=G[vis[idx]];box.querySelector('.c').innerHTML=ph(g.s,g.a)+'<p style="margin:12px;text-align:center;font-size:14px;color:#fff">'+g.a+'</p>';box.querySelectorAll('[data-img]').forEach(el=>{const im=new Image();im.alt=el.dataset.alt;im.onload=()=>{el.textContent='';el.append(im)};im.src=el.dataset.img})}
+m.onclick=e=>{if(e.target==m||e.target.classList.contains('x'))shut();else if(e.target.classList.contains('arr')){idx=(idx+(e.target.classList.contains('r')?1:-1)+vis.length)%vis.length;show()}};
+$('#cards').onclick=e=>{const c=e.target.closest('.card');if(!c)return;const o=O[c.dataset.n];openM(ph(`slike/${o.i}.jpg`,o.a)+'<div class="in"><h3>'+o.k+'</h3>'+o.h+'<p style="margin-top:22px"><a class="btn dark" href="#kontakt" onclick="shut();$(\'#kat\').value=\''+o.k+'\'">Poručite</a></p></div>')};
+$('#gal').onclick=e=>{const p=e.target.closest('.ph');if(!p)return;vis=G.map((g,n)=>n).filter(n=>cur=='Sve'||G[n].c==cur);idx=vis.indexOf(+p.dataset.g);openM('<div class="c"></div><button class="arr l" aria-label="Prethodna">‹</button><button class="arr r" aria-label="Sledeća">›</button>',1);show()};
+document.querySelectorAll('[data-vid]').forEach(b=>b.onclick=()=>openM('<video src="'+b.dataset.vid+'" poster="'+b.querySelector('img').getAttribute('src')+'" controls autoplay playsinline></video>',1));
+addEventListener('keydown',e=>{if(!m.classList.contains('on'))return;if(e.key=='Escape')shut();if(box.classList.contains('lb')&&vis.length&&box.querySelector('.arr')){if(e.key=='ArrowRight')box.querySelector('.r').click();if(e.key=='ArrowLeft')box.querySelector('.l').click()}});
+// nav
+const bg=$('#burger'),mn=$('#menu');bg.onclick=()=>{const o=mn.classList.toggle('open');bg.setAttribute('aria-expanded',o)};mn.onclick=()=>{mn.classList.remove('open');bg.setAttribute('aria-expanded',false)};
+// whatsapp
+const waLink=()=>{const v=i=>$('#'+i).value.trim()||'-';const t=`Zdravo, želim da pošaljem upit.\nIme: ${v('ime')}\nTelefon: ${v('tel')}\nŠta želim: ${v('kat')}\nDatum proslave: ${v('dat')}\nBroj gostiju: ${v('gos')}\nŽelje i ideje: ${v('zel')}`;$('#wa').href='https://wa.me/381643141962?text='+encodeURIComponent(t)};
+$('#f').addEventListener('input',waLink);$('#f').addEventListener('change',waLink);$('#f').onsubmit=e=>e.preventDefault();waLink();
+$('#y').textContent=new Date().getFullYear();
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.1});document.querySelectorAll('.reveal').forEach(r=>io.observe(r));
+
+
+/* ===== SPLASH: nestaje sam posle ~3s ili čim korisnik skroluje ===== */
+(function(){const s=document.getElementById('splash');if(!s)return;
+let done=0;function bye(){if(done)return;done=1;s.classList.add('out');setTimeout(()=>s.remove(),1000);['wheel','touchmove','keydown','scroll'].forEach(e=>removeEventListener(e,bye))}
+setTimeout(bye,3300);
+['wheel','touchmove','keydown','scroll'].forEach(e=>addEventListener(e,bye,{passive:true}));
+})();
+
+/* trake obećanja: video se vrti dok je u vidokrugu */
+(function(){const vs=document.querySelectorAll('.bv video');if(!('IntersectionObserver' in window)||!vs.length)return;
+const io=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){v.play&&v.play().catch(()=>{})}else v.pause()}),{threshold:.35});vs.forEach(v=>io.observe(v))})();
+</script>
+</body>
+</html>
